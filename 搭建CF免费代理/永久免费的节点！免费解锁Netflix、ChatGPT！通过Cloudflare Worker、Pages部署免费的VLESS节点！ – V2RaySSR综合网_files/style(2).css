@@ -1,0 +1,52 @@
+/*
+Theme Name:     B2子主题
+Theme URI:      http: //7b2.com/
+Description:    Child theme for the seven
+Author:         子主题模版
+Author URI:     http: //7b2.com/
+Template:       b2
+Version:        0.1.5
+*/
+
+/*下面是您自己DIY的css样式代码*/
+
+/*摘要文字颜色加深*/
+.post-excerpt{
+    font-size: 13px;
+    color: #666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-justify: inter-ideograph;
+    word-break: break-all;
+    margin-top:5px
+}
+
+/*首页评论，喜欢，阅读量文字颜色加深*/
+.post-3 .post-list-meta li span,.post-meta li span{
+    color: #999;
+}
+
+/*更改上传封面图字体颜色*/
+.user-cover-button label.empty{
+    background: none;
+    color: #666;
+    border-color: #666;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    padding: 7px 10px;
+}
+
+/*标签云*/
+.tagcloud{padding:12px 10px 15px 20px}.tagcloud a:nth-child(9n){background-color:#4a4a4a}.tagcloud a:nth-child(9n+1){background-color:#15a287}.tagcloud a:nth-child(9n+2){background-color:#5cb85c}.tagcloud a:nth-child(9n+3){background-color:#d9534f}.tagcloud a:nth-child(9n+4){background-color:#567e95}.tagcloud a:nth-child(9n+5){background-color:#b433ff}.tagcloud a:nth-child(9n+6){background-color:#00a67c}.tagcloud a:nth-child(9n+7){background-color:#b37333}.tagcloud a:nth-child(9n+8){background-color:#f60}.tagcloud a{display:inline-block;margin:0 5px 5px 0;padding:2px 6px;background-color:#00a67c;color:#fff;line-height:1.3125rem;opacity:.7;filter:alpha(opacity=80)}.tagcloud a:hover{opacity:1;filter:alpha(opacity=100)}
+ 
+
+/*设置表格文字左右和上下居中对齐*/ 
+.hahaha td
+{  
+    vertical-align: middle;
+    text-align: center;  
+}
